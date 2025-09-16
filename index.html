@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蠢桥主题网页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #ffff99; /* 亮黄色背景 */
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #ffcc00; /* 更深的黄色 */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2rem;
+        }
+        
+        .content-section {
+            background-color: #fffae6; /* 淡黄色背景 */
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        h2 {
+            color: #e6b800;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 8px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .gallery-item {
+            background-color: #ffdd33;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #333;
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05);
+            background-color: #ffcc00;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #ffcc00;
+            border-radius: 10px;
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .gallery-item {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>黄色主题网页</h1>
+            <p class="subtitle">明亮而愉快的黄色背景设计</p>
+        </header>
+        
+        <div class="content-section">
+            <h2>关于黄色</h2>
+            <p>黄色是阳光的颜色，象征着快乐、智慧和能量。在设计中，黄色能够吸引注意力，带来温暖和乐观的感觉。</p>
+            <p>这个网页展示了如何使用黄色作为背景色，同时保持内容的可读性和美观性。</p>
+        </div>
+        
+        <div class="content-section">
+            <h2>黄色色调示例</h2>
+            <div class="gallery">
+                <div class="gallery-item">淡黄色</div>
+                <div class="gallery-item">柠檬黄</div>
+                <div class="gallery-item">金黄色</div>
+                <div class="gallery-item">琥珀色</div>
+            </div>
+        </div>
+        
+        <div class="content-section">
+            <h2>设计技巧</h2>
+            <p>使用黄色作为背景时，可以考虑以下建议：</p>
+            <p>• 使用深色文字确保可读性</p>
+            <p>• 搭配中性色如白色或灰色平衡视觉</p>
+            <p>• 添加对比色元素增加视觉趣味</p>
+            <p>• 避免使用过多的高饱和度黄色，以免造成视觉疲劳</p>
+        </div>
+        
+        <footer>
+            <p>© 2025 黄色主题网页 | 蠢桥</p>
+        </footer>
+    </div>
+</body>
+</html>
